@@ -8,8 +8,9 @@
 }
 
 nav{
-    background-color:#fff7f7;
-    padding:  0px 20px;
+    background-color:#000;
+    color: #fff;
+    padding:  0px 60px;
     width: 100wh;
     display: flex;
     align-items: center;
@@ -17,9 +18,9 @@ nav{
 }
 
 .news-logo{
-    width: 90px;
+    width: 70px;
     margin-right: 20px;
-    height: 100px;
+    height: 70px;
 }
 
 .nav-items{
@@ -35,6 +36,7 @@ nav{
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 .main{
@@ -49,8 +51,8 @@ a{
 }
 
 .news p{ 
-    max-width: 50vw;
-    margin-top: 50px;
+    max-width: 60vw;
+    margin-top: 30px;
 }
 
 .impo-news{
@@ -114,7 +116,54 @@ a{
     margin: 10px;
 }
 
+.news-list-item a{
+    color: #000000;
+}
+
+
 footer{
     margin-bottom: 50px;
     text-align: center;
+}
+
+
+.news-section{
+    padding: 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-section p{
+    max-width: 85%;
+    margin-top: 30px ;
+}
+
+.details{
+    padding: 7%;
+    padding-top:4%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+h2{
+    margin-bottom:26px;
+    font-size:21px;
+}
+
+p{
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+.details-down{
+    padding: 7%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0;
 }
