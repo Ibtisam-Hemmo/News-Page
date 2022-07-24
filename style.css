@@ -167,3 +167,68 @@ p{
     flex-wrap: wrap;
     padding-top: 0;
 }
+
+.comment{
+    padding: 7%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    width:95%;
+    padding:1%;
+    margin-bottom: 20px;
+    background-color:#e4e7eb;
+}
+input{
+    padding:7px;
+    height:27px;
+}
+
+#comment{
+    width: 68%;
+}
+
+#btn-add{
+    padding:10px;
+    margin-left: 15px;
+}
+
+#btn-add:hover{
+    border: none;
+    background-color:  #b8afcf;
+    box-shadow: 0 6.5px 22.5px 0 rgba(3, 17, 24, 0.502);
+    transform: scale(1.2);
+    transition: transform 100ms;
+    cursor: pointer;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    margin-right: 34px;
+}
+
+#output{
+    display:flex;
+    flex-direction: column;
+}
+
+#outpu{
+    display: flex;
+    margin-bottom: 10px;
+}
+.comment-show{
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-size: 15px;
+}
